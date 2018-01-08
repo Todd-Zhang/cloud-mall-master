@@ -1,0 +1,32 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.out
+*.gradle
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+nbdist/
+.nb-gradle/
+/.gradle/
+/out/
+/gradle/
+!/build.gradle
+!/ccm-web/src/main/resources/static/dist/
+!/user-micriservice/build.gradle

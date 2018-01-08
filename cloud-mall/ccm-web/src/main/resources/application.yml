@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ccm-web-consumer
+  resources:
+    static-locations: classpath:/static/
+server:
+  port: 8020
+eureka:
+  client:
+    service-url:
+      defaultZone : http://localhost:8000/eureka/
